@@ -15,7 +15,6 @@ public class LevelGeneratorMenu : EditorWindow
     public static void Init()
     {
         LevelGeneratorMenu window = (LevelGeneratorMenu)EditorWindow.GetWindow(typeof(LevelGeneratorMenu));
-        //  path = Application.dataPath + levelsPath;
         window.Show();
     }
     public static void GenerateLevel()
@@ -99,10 +98,6 @@ public class LevelGeneratorMenu : EditorWindow
             else
                 GenerateLevel();
         }
-        //if(GUILayout.Button("Add Door"))
-        //{
-
-        //}
     }
 
 }
